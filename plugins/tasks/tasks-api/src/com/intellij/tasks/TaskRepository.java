@@ -363,6 +363,8 @@ public abstract class TaskRepository {
   public void updateTimeSpent(@NotNull LocalTask task, @NotNull String timeSpent, @NotNull String comment) throws Exception {
     throw new UnsupportedOperationException();
   }
+  
+  
 
   public abstract static class CancellableConnection implements Callable<Exception> {
 
